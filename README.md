@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# PDF/Image Editor React Application using Javascript, React.js, Saas (CSS Preprocessor)
+[PDF/Image Editor](https://pdf-image-editor.vercel.app/) is a powerful JavaScript-based PDF Library that's part of the PSPSFKit and for Image I am using pqina(pintura, react-pintura). It provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate and manipulate PDFs that can be embedded into any web project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The app is live here - 
+[Click here to see the live demo](https://pdf-image-editor.vercel.app/)
 
-## Available Scripts
+This repo is specifically designed for any users interested in integrating PDF/Image Editing into React project. You can try using the link
+[Click here to see the live demo](https://pdf-image-editor.vercel.app/)
 
-In the project directory, you can run:
+# Demos :-
+  * [Customizable out-of-the-box UI](https://showcase.apryse.com/toolbar-customization/)
+  * [PDF Viewer](https://showcase.apryse.com/)
+  * [DOCX Editor](https://showcase.apryse.com/office-editor)
+  * [Canvas Editor](https://www.canva.com/pdf-editor/)
+  * [Sejda Free PDF Editor](https://www.sejda.com/pdf-editor)  * 
+  * [More](https://showcase.apryse.com/)
+  
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# The project structure is only one part
+* client
+  
+# The libraries included in this app are -
+  * React
+  * PSPSFKit
+  * pqina/pintura
+  * pqina/react-pintura
+  * react-pdf-viewer/core
+  * Saas
+  * React-dom
+    
+# Setting up the UI 
+Firstly, the design is completely mine, its is an important part that I always try to maintain in all of my projects.
+The home page design was build using a SASS css. The responsive design of the page using media queries will run when opened in a mobile-device. All the other components were created on top of these main components 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Deployment
+The app is deployed using Vercel.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
